@@ -30,4 +30,4 @@ sed -i 's|.tab.txt:|\t|' core_search_outputs/$1_cog_vgrg_cores.tsv
 
 awk '{print $2}' core_search_outputs/$1_*_cores.tsv | sort -u >> core_search_outputs/$1_core_genes.tsv
 
-seqkit grep -f core_search_outputs/$1_core_genes.tsv /sci/labs/asafle/alexlevylab/icore-data/IMG/$1/$1*genes.faa* >> faa_raw/"$1"_t6ss_cores.faa
+seqkit grep -f core_search_outputs/$1_core_genes.tsv /IMG/$1/$1*genes.faa* >> faa_raw/"$1"_t6ss_cores.faa
