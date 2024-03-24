@@ -9,15 +9,16 @@ Alexander Martin Geller, Maor Shalom*, David Zlotkin*, Noam Blum, and Asaf Levy
 
 Department of Plant Pathology and Microbiology, the Institute of Environmental Science, the Robert H. Smith Faculty of Agriculture, Food and Environment, the Hebrew University of Jerusalem, Rehovot, Israel.
 
-# Description of the scripts
+# Description and Instructions
 
 **commands_for_sequence_and_structure_analysis.sh**
 - This script provides the main commands used for clustering of sequences and structures of Type VI Secretion System specialized effectors
-- This inlcudes the parameters used in the published paper
+- This inlcudes the parameters used in the published paper, and can be used for your input data (amino acid sequences of effectors / other genes)
 - Versions used are listed in the manuscript Materials and Methods
   
 **grep_vgrG_PAAR_hcp_and_faa.sh**
 - This script contains the commands for extracting domains and sequences of T6E core domains from a locally downloaded subset of the IMG database
+- This script requires pfam files and faa files of your genomes of interest
 - More information about are listed in the manuscript Materials and Methods
 
 **run_trained_model_gh.py**
